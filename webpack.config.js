@@ -35,5 +35,8 @@ module.exports = {
   ],
   optimization: {
     minimizer: [new UglifyJsPlugin()]
+  },
+  performance: {
+    hints: false
   }
 }
